@@ -76,11 +76,16 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.5) rotate(360deg);
 }
-header .exp-header {
+header .pro-header {
   color: white;
   font-family: 'Roboto', sans-serif;
-  padding: 150px;
+  padding-top: 125px;
   font-size: 50px;
+}
+.projects {
+  text-align: center;
+  color: white;
+  padding-bottom: 50px;
 }
 .tag {
   background-color: #efefef;
@@ -177,7 +182,22 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
-
+.profile {
+  width: 400px;
+  border-radius: 5%;
+}
+.meagain {
+  width: 400px;
+  border-radius: 50%;
+  border: 6px solid lightblue;
+  float: right;
+  margin-right: 200px;
+  margin-top: 100px;
+}
+#bioinfo {
+  margin-top: 100px;
+  margin-left: 100px;
+}
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
